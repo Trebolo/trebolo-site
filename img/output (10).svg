@@ -1,0 +1,20 @@
+<svg role="img" width="100%" height="100%" viewBox="0 0 1 3" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="square">
+          <rect width="1" height="1" />
+        </clipPath>
+      </defs>
+      undefined
+        <g transform="matrix(1,0,0,1,0,0)" style="clip-path: url(#square); ">
+          <polygon points="0.5,0 0,0.5 0.5,1 1,0.5" style="fill:#3E3E3A;"/><polygon points="0.5,0.25 0.25,0.5 0.5,0.75 0.75,0.5" style="fill:#292927;"/>
+        </g>
+      
+        <g transform="matrix(1,0,0,1,0,1)" style="clip-path: url(#square); ">
+          <circle cx="0.5" cy="0.5" r="0.5" style="fill:#465A54;"/><circle cx="0.5" cy="0.5" r="0.25" style="fill:#292927;"/>
+        </g>
+      
+        <g transform="matrix(1,0,0,1,0,2)" style="clip-path: url(#square); ">
+          <polygon points="0.5,0 0,0.5 0.5,1 1,0.5" style="fill:#FF6A5F;"/><polygon points="0.5,0.25 0.25,0.5 0.5,0.75 0.75,0.5" style="fill:#3E3E3A;"/>
+        </g>
+      
+    </svg>

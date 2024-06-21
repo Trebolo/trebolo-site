@@ -22,38 +22,30 @@ $(window).load(function(){
 
             complete: function(){
                 $("#loading").velocity("fadeOut", {
-                    duration: 1000,
+                    duration: 500,
                     easing: [0.7,0,0.3,1],
                 }); 
             }
         })
-
-    },1000);
+        $(".bauhaus").addClass("animate__slideInRight")
+    },200);
 
     setTimeout(function(){
         $('.global-overlay').velocity({
-
             translateX : "100%",
             opacity : "1",
-
         },
-
         {
             duration: 1000,
             easing: [0.7,0,0.3,1],
         })
-        
         $(".map-container").addClass("fadeInRight").removeClass('opacity-0');
-
-    },1000);
+    },200);
 
     setTimeout(function(){
         $('#left-side').velocity({
-
             opacity : "1",
-
             complete: function(){
-
             setTimeout(function() {
                 $('.text-intro').each(function(i) {
                     (function(self) {
@@ -64,16 +56,13 @@ $(window).load(function(){
                     });
                 }, 0);
             }
-
         },
-
         {
             duration: 1000,
             easing: [0.7,0,0.3,1],
         })
         
-    },1600);
-
+    },800);
 })
 
 $(document).ready(function(){
