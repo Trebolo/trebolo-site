@@ -61,7 +61,7 @@ table {
 #loading {
   width: 100vw;
   height: 100vh;
-  background: #292927;
+  background: #CECDC1;
   position: fixed;
   z-index: 999;
 }
@@ -78,12 +78,13 @@ table {
 #loading #preloader:after {
   content: "Loading";
   position: absolute;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
-  color: #000000;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  color: #465A54;
   letter-spacing: 1px;
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   top: 90px;
   width: 100%;
   left: 0;
@@ -94,7 +95,7 @@ table {
 
 #loading #preloader span {
   position: absolute;
-  border: 8px solid #000000;
+  border: 8px solid #465A54;
   border-top: 8px solid transparent;
   border-radius: 999px;
 }
@@ -149,7 +150,7 @@ table {
 /* ------------------------------------- */
 body {
   background: #EF106D;
-  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -239,7 +240,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 h1 {
   font-size: 40px;
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -518,8 +519,7 @@ sup {
 }
 
 #right-side .content h3 {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
-  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -559,7 +559,7 @@ sup {
   width: 100%;
   text-align: center;
   color: #FFFFFF;
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 2px;
@@ -635,7 +635,7 @@ sup {
 }
 
 .widget-angle-top-right span.icon-text {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   position: absolute;
   top: -47px;
@@ -656,7 +656,7 @@ sup {
 }
 
 .widget-angle-bottom-right span.icon-text {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   position: absolute;
   top: 23px;
@@ -677,7 +677,7 @@ sup {
 }
 
 .widget-angle-bottom-left span.icon-text {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   position: absolute;
   top: 23px;
@@ -698,7 +698,7 @@ sup {
 }
 
 .widget-angle-top-left span.icon-text {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   position: absolute;
   top: -47px;
@@ -871,7 +871,7 @@ sup {
 .dialog .dialog-inner h4 {
   color: #FFFFFF;
   font-size: 40px;
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -935,7 +935,7 @@ sup {
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
   background: transparent;
   color: #FFFFFF;
   height: 50px;
@@ -1434,3 +1434,85 @@ footer p {
     font-size: 12px;
   }
 }
+
+/*  Customization
+Red: #ff6a5f
+Black Text In Button: #292927
+Green: #465A54
+Concrete: #CECDC1
+========================================= */
+#mCSB_1_container {
+  height: 100%;
+}
+#right-side {
+  height: 100%;
+}
+body {
+  background: #CECDC1;
+}
+.overlay {
+  background: #465A54;
+  box-shadow: 0px 5px 35px 0px rgba(70, 90, 84, .5);
+}
+.text-intro {
+  color: #fff;
+}
+h1.text-intro {
+  font-size: 42px;
+}
+h2.text-intro {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+h3 {
+  text-transform: none;
+  margin-bottom: 18px;
+}
+
+#open-more-info {
+  background: #FF6A5F;
+  border: 2px solid #FF6A5F;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #292927;
+}
+#contact-form button#valid-form {
+  background: #fff;
+  border: 1px solid #FF6A5F;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #FF6A5F;
+  width: 120px;
+  margin-right: 0px;
+  font-weight: 600;
+}
+#contact-form .form-control {
+  border-radius: 4px;
+}
+#right-side .content {
+  margin-top: 80px;
+  padding: 60px 80px;
+}
+p {
+  font-size: 14px;
+  color: #292927;
+}
+#contact-form #valid-form {
+  border-radius: 40px;  
+}
+#left-side .content {
+  padding: 0 12.5%;
+}
+#contact-form ::placeholder {
+  color: rgba(153, 153, 153, .9) !important;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px !important;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+

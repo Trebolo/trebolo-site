@@ -6,11 +6,7 @@
         <meta name="description" content="Trebolo Coming Soon Website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Trebolo">
-        <link rel="shortcut icon" href="img/favicon.png">
-        <!-- <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png"> -->
+        <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -28,11 +24,7 @@
 
 		<!-- Overlay and Star effect -->
 		<div class="global-overlay">
-			<div class="overlay skew-part">
-				<div id='stars'></div>
-				<div id='stars2'></div>
-				<div id='stars3'></div>
-			</div>
+			<div class="overlay skew-part"></div>
 		</div>
 		<section id="left-side">
 			<!-- <img src="img/logo.png" alt="" class="brand-logo" /> -->
@@ -42,7 +34,7 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">About Us</a>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Contact Us</a>
 						</li>
 					</ul>
 				</nav>
@@ -51,37 +43,7 @@
 
 		<section id="right-side" class="hide-right">
 			<div class="content">
-				<h3>About Us</h3>
-				<p>Paragraph Here About Marco and I</p>
-				<br><br>
-				<div class="photo-line">
-					<div class="my-gallery row" itemscope itemtype="http://schema.org/ImageGallery">
-						
-						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-12 col-lg-6">
-							<img src="img/gallery-1.jpg" itemprop="thumbnail" alt="This is my work" class="img-fluid" />
-							<figcaption itemprop="caption description">
-								<div class="photo-details">
-									<h4>Dave Luke</h4>
-									<span class="border"></span>
-									<p>Lorem ipsum Veniam ut culpa exercitation occaecat quis proident nisi. Lorem ipsum Commodo nostrud officia in Excepteur mollit sed.</p>
-								</div>
-							</figcaption>
-						</figure>
-						
-						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-12 col-lg-6">
-							<img src="img/gallery-2.jpg" itemprop="thumbnail" alt="This is my work" class="img-fluid" />
-							<figcaption itemprop="caption description">
-								<div class="photo-details">
-									<h4>Marco S</h4>
-									<span class="border"></span>
-									<p>Lorem ipsum Enim voluptate voluptate magna enim quis sed sunt esse in cupidatat cillum. Lorem ipsum Quis adipisicing laborum dolore sed est reprehenderit Duis tempor veniam velit.</p>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				<span class="separator"></span>
-				<h3>Get in touch with us!</h3>
+				<h3>Have A Question?</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             	<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
@@ -90,35 +52,35 @@
                         <!-- Name -->
                         <div class="col-12 col-lg-6">
                             <div class="form-group">
-                                <input type="text" id="name" class="form form-control" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
+                                <input type="text" id="name" class="form form-control" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
                             </div>
                         </div>
 
                         <!-- E-mail -->
                         <div class="col-12 col-lg-6">
                             <div class="form-group">
-                                <input type="email" id="email" class="form form-control" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
+                                <input type="email" id="email" class="form form-control" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
                             </div>
                         </div>
 
                         <!-- Subject -->
                         <div class="col-xs-12 col-sm-12 col-lg-12">
                             <div class="form-group">
-                                <input type="text" id="subject" class="form form-control" placeholder="Write the subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the subject'" name="subject" data-name="Subject">
+                                <input type="text" id="subject" class="form form-control" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the subject'" name="subject" data-name="Subject">
                             </div>
                         </div>
 
                         <!-- Message -->
                         <div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
                             <div class="form-group">
-                                <textarea id="text-area" class="form textarea form-control" placeholder="Your message here... 20 characters Min." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
+                                <textarea id="text-area" class="form textarea form-control" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
                             </div>
                         </div>
 
                     </div>
 
                 	<!-- Button submit -->
-                	<button type="submit" id="valid-form" class="btn btn-color">Send my Message</button>
+                	<button type="submit" id="valid-form" class="contact-submit-btn btn btn-color">Submit</button>
                 </form>
                 <div id="block-answer">
 					<div id="answer"></div>
