@@ -1063,15 +1063,15 @@ sup {
   color: #000000;
 }
 
-#contact-form {
+#contact-us {
   margin-top: 40px;
 }
 
-#contact-form ::placeholder {
+#contact-us ::placeholder {
   color: #747c83 !important;
 }
 
-#contact-form .form-control {
+#contact-us .form-control {
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 0;
@@ -1088,15 +1088,15 @@ sup {
   text-align: left;
 }
 
-#contact-form .form-control:hover, #contact-form .form-control:focus {
+#contact-us .form-control:hover, #contact-us .form-control:focus {
   box-shadow: none;
 }
 
-#contact-form textarea.form-control {
+#contact-us textarea.form-control {
   min-height: 150px;
 }
 
-#contact-form button#valid-form {
+#contact-us button#valid-form {
   font-weight: 400;
   padding: 1em 2em;
   font-size: 1em;
@@ -1113,7 +1113,7 @@ sup {
   line-height: 10px;
 }
 
-#contact-form button#valid-form:hover {
+#contact-us button#valid-form:hover {
   background: #000000;
   color: #FFFFFF;
 }
@@ -1489,7 +1489,7 @@ h3 {
   font-size: 14px;
   color: #292927;
 }
-#contact-form button#valid-form {
+#contact-us button#valid-form {
   background: #fff;
   border: 1px solid #FF6A5F;
   border-radius: 40px;
@@ -1499,7 +1499,12 @@ h3 {
   margin-right: 0px;
   font-weight: 600;
 }
-#contact-form .form-control {
+#contact-us button#valid-form::hover {
+  background: #fff;
+  border: 1px solid #FF6A5F;
+  color: #fff;
+}
+#contact-us .form-control {
   border-radius: 4px;
 }
 #right-side .content {
@@ -1510,13 +1515,13 @@ p {
   font-size: 14px;
   color: #292927;
 }
-#contact-form #valid-form {
+#contact-us #valid-form {
   border-radius: 40px;  
 }
 #left-side .content {
   padding: 0 12.5%;
 }
-#contact-form ::placeholder {
+#contact-us ::placeholder {
   color: rgba(153, 153, 153, .9) !important;
   font-family: "DM Sans", sans-serif;
   font-size: 13px !important;

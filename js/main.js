@@ -71,7 +71,6 @@ $(document).ready(function(){
     /* ------------------------------------- */
     /* 2. Action Buttons ................... */
     /* ------------------------------------- */
-
     $('a#open-more-info').on( "click", function() {
         $(".overlay").toggleClass("skew-part");
         $("#right-side").toggleClass("hide-right");
@@ -82,6 +81,8 @@ $(document).ready(function(){
                 scrollInertia:500,
                 callbacks:false
             });
+            $("#email").val("");
+            $("#text-area").val("");
         }, 350);
     });
 
